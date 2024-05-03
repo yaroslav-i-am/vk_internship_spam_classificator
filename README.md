@@ -48,4 +48,5 @@
 * BERT finetuning
 * YandexGPT finetuning
 * Англоязычные LLM
+* (Стемминг существенного прироста не даёт)
 
