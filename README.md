@@ -30,7 +30,7 @@
 | **CatBoost + TfIdf** | $0.9762115194855141$ |
 | **torch.nn.Embedding + pooling + усреднение эмбеддингов + CNN** | $0.9803413151716367$ |
 | **CatBoost + CatBoost-`text_features`** | $0.9882046766847703$ |
-| **CatBoost + CatBoost-`text_features` + `text_stat` features** | $0.9918659794804257$ |
+| **CatBoost + CatBoost-`text_features` + `text_stat` features** | $0.9918659794804257$ ($-0.0004$ со стеммингом)|
 
 ## Прочие эксперименты
 | Модель / Векторизатор | Значение метрики |
