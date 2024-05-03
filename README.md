@@ -19,5 +19,26 @@
 * **Lightning** + **WandB**
 * **PyTorch**
 * **YaGPT** + **Yandex.Cloud**
-* **Catboost**
+* **CatBoost**
 * **TfIdf** / **FastText**
+* **K-Fold**
+
+## Top-Метрики
+
+| Модель / Векторизатор | Значение метрики |
+|-|-|
+| **CatBoost + TfIdf** | $0.9762115194855141$ |
+| **torch.nn.Embedding + pooling + усреднение эмбеддингов + CNN** | $0.9803413151716367$ |
+| **CatBoost + CatBoost-`text_features`** | $0.9882046766847703$ |
+| **CatBoost + CatBoost-`text_features` + `text_stat` features** | $0.9918659794804257$ |
+
+## Прочие эксперименты
+
+| Модель / Векторизатор | Значение метрики |
+|-|-|
+| **fastText (Нативный _supervised_ классификатор)** | $0.6945184582939149$ |
+| **YandexGPT-Pro API** | $0.817508499271491$ |
+
+## Пути развития
+
+
